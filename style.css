@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(27, 27, 90);
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+
+.result{
+    text-align: center;
+    color: wheat;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+}
+
+
+.game-container{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.dices{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgb(98, 91, 117);
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.player_number{
+    color: rgb(27, 27, 90);
+    text-align: center;
+    font-size: 2rem;
+    font-family: fantasy;
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+button{
+    margin: auto;
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(81, 81, 187);
+    border: 5px solid rgb(29, 82, 197);
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:active{
+    border: 5px groove black;
+    background-color: blue;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.scorecard{
+    width: 350px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(98, 91, 117);
+    padding: 30px;
+    color: rgb(27, 27, 90);
+    height: max-content;
+    font-size: 2rem;
+}
+
+.signature{
+    margin-top: 100px;
+    font-size: 120%;
+    color: white;
+    text-align: center;
+}
